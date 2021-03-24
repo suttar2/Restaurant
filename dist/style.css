@@ -15,14 +15,24 @@ body {
     text-align: center;
     font: normal var(--font-size) var(--font-style), Arial;
     color:#eee;
-}
-
-h1 {
     
 }
+#logo{
+    width: 30%;
+    min-width: 200px;
+    max-width: 600px;
+}
+img {
+    width: 95%;
+    margin-top: 1rem;;
+    margin-bottom: 1rem;
+}
+h1{
+    margin:1rem;
+}
 
-p {
-
+p{
+    margin: 1rem;
 }
 
     .content {
@@ -41,13 +51,14 @@ p {
         font-size:(var(--font-size));
         font-family:(var(--font-style));
         color:(var(--font-color));
-        
+
         background-image: url("img/BriarBarExterior.png");
         background-color: #cccccc;
-        background-position: center;
+        background-position: center;;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        
         }
     
         .header{
@@ -71,6 +82,7 @@ p {
                 }
                 .button-nav:hover{
                     transform:translateY(-.25rem)
+
                 }
 
     
@@ -78,15 +90,19 @@ p {
             display: flex;
             flex: 0 0 0;
             flex-direction: column;
-            height: fit-content;
+            height: auto;
 
 
             max-width: 800px;
             margin: 40px;
 
+            align-items: center;
+
 
             background-color: var(--background-light);
-            padding: 10px;
+            padding: 1.5rem;
+
+            box-sizing:border-box;
 
             border: 1px solid var(--border-color);
 
@@ -97,5 +113,9 @@ p {
             box-sizing: border-box;
             border-top: 1px solid var(--border-color);;
             width: 100%;
-            padding: 10px;;
+            padding: 10px;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }

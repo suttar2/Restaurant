@@ -1,38 +1,37 @@
-function loadMain() {
-
+const loadSupport = () => {
 const content = document.getElementById('content');
 
-const header = document.createElement('div');
-header.classList.add('header');
+    let header = document.createElement('div');
+    header.classList.add('header');
 
-    let logo = document.createElement('img');
-    logo.id = 'logo';
-    logo.setAttribute('src', 'img/BriarBarComingSoon.png');
-    header.appendChild(logo);
+        let logo = document.createElement('img');
+        logo.id = 'logo';
+        logo.setAttribute('src', 'img/BriarBarComingSoon.png');
+        header.appendChild(logo);
 
-    let nav = document.createElement('nav');
-    header.appendChild(nav);
+        let nav = document.createElement('nav');
+        header.appendChild(nav);
 
-        let home = document.createElement('button');
-        home.innerHTML = 'home';
-        home.classList.add('button-nav');
-        nav.appendChild(home);
+            let home = document.createElement('button');
+            home.innerHTML = 'home';
+            home.classList.add('button-nav');
+            nav.appendChild(home);
 
-        let support = document.createElement('button');
-        support.innerHTML = 'support';
-        support.classList.add('button-nav');
-        nav.appendChild(support);
+            let support = document.createElement('button');
+            support.innerHTML = 'support';
+            support.classList.add('button-nav');
+            nav.appendChild(support);
 
-        let contact = document.createElement('button');
-        contact.innerHTML = 'contact';
-        contact.classList.add('button-nav');
-        nav.appendChild(contact);
+            let contact = document.createElement('button');
+            contact.innerHTML = 'contact';
+            contact.classList.add('button-nav');
+            nav.appendChild(contact);
 
 const maincontent = document.createElement('div');
 maincontent.classList.add('main-content');
 
     let h1 = document.createElement('h1');
-    h1.innerHTML = 'Coming to NE MNPLS Soon';
+    h1.innerHTML = 'Support us in these Specific ways';
     maincontent.appendChild(h1);
 
     let p = document.createElement('p');
@@ -40,9 +39,8 @@ maincontent.classList.add('main-content');
     maincontent.appendChild(p);
 
     let barimage = document.createElement('img');
-    barimage.setAttribute('src', 'img/BriarBackdrop.jpg');
+    barimage.setAttribute('src', 'img/Cocktailati.png');
     maincontent.appendChild(barimage);
-
 
 const footer = document.createElement('div');
 footer.classList.add('footer');
@@ -58,7 +56,7 @@ footer.classList.add('footer');
 content.appendChild(header);
 content.appendChild(maincontent);
 content.appendChild(footer);
-}
+};
 
-export default loadMain;
+export default loadSupport;
 
