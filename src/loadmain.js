@@ -15,7 +15,7 @@ header.classList.add('header');
 
         let home = document.createElement('button');
         home.innerHTML = 'home';
-        home.classList.add('button-nav');
+        home.classList.add('button-nav','active');
         nav.appendChild(home);
 
         let support = document.createElement('button');

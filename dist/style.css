@@ -72,17 +72,23 @@ p{
 
             }
                 .button-nav{
+                    font-size: 1.3rem;
                     border: none;
                     background-color: transparent;
                     color: var(--font-color);
                     cursor:pointer;
-                    transition-duration: 300ms;
+                    transition: 300ms;
                     padding: 1rem;
 
                 }
                 .button-nav:hover{
                     transform:translateY(-.25rem)
 
+                }
+                .button-nav.active{
+                    transform:translateY(-.25rem);
+                    text-decoration: underline;
+                    
                 }
 
     

@@ -24,7 +24,7 @@ const loadContact = () => {
 
             let contact = document.createElement('button');
             contact.innerHTML = 'contact';
-            contact.classList.add('button-nav');
+            contact.classList.add('button-nav','active');
             nav.appendChild(contact);
 
 const maincontent = document.createElement('div');

@@ -19,7 +19,7 @@ const content = document.getElementById('content');
 
             let support = document.createElement('button');
             support.innerHTML = 'support';
-            support.classList.add('button-nav');
+            support.classList.add('button-nav','active');
             nav.appendChild(support);
 
             let contact = document.createElement('button');

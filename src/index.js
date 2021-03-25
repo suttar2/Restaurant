@@ -32,5 +32,3 @@ switch (e.target.innerHTML){
 
 
 });
-
-console.log('noop')
